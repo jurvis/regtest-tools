@@ -1,0 +1,3 @@
+[submodule "electrs/electrs"]
+	path = electrs/electrs
+	url = https://github.com/Blockstream/electrs.git
