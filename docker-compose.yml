@@ -3,6 +3,9 @@ services:
     extends:
       file: docker-compose-nodes.yml
       service: electrs
+    ports:
+      - 60401:60401
+      - 9000:9000
 
   bitcoind:
     extends:

@@ -9,8 +9,5 @@ services:
     build: electrs
     command: --daemon-rpc-addr=bitcoind:18443
       --daemon-dir=/var/lib/bitcoin/
-    ports:
-      - 60401:60401
-      - 9000:9000
     volumes_from:
       - bitcoind:ro
