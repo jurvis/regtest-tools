@@ -11,6 +11,8 @@ services:
     extends:
       file: docker-compose-nodes.yml
       service: bitcoind
+    volumes:
+      - ./wallets:/var/lib/bitcoin/regtest/wallets
 
   mempool-frontend:
     environment:

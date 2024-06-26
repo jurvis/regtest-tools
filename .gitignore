@@ -1,3 +1,4 @@
 # Ignore Mempool.space artifacts
 mysql
 data
+wallets
